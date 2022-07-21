@@ -1,0 +1,238 @@
+/* this is min section  */
+main {
+  font-family: "Poppins", sans-serif;
+  display: grid;
+  justify-content: center;
+}
+/*  min section  end --------*/
+
+.container-one {
+  display: flex;
+  justify-content: center;
+  width: 1321px;
+  height: 646px;
+  background: #161616;
+  border-radius: 30px;
+}
+.show-title {
+  color: white;
+}
+.show-title p {
+  width: 506px;
+  height: 78px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}
+.show {
+  width: 531px;
+  height: 424px;
+  left: 246px;
+  top: 111px;
+}
+.show .whatch button {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 15px 25px;
+  gap: 10px;
+  /* width: 187px;
+  height: 56px; */
+  background: #dd0000;
+  border-radius: 5px;
+  font-size: 20px;
+  color: white;
+  transition: all 0.5s ease-in-out;
+}
+.show .whatch button:hover {
+  background-color: rgb(156, 145, 125);
+  padding: 25px 35px;
+  color: rgb(221, 34, 34);
+  font-weight: 700;
+  font-size: 25px;
+}
+.whatch .fa-chevron-right {
+  color: white;
+}
+
+.player-img-six img {
+  width: 553px;
+  height: 646px;
+  margin-left: 40px;
+}
+.full-title-container {
+  margin-top: 40px;
+  margin-right: 30px;
+}
+.player-pic {
+  margin-top: 52px;
+  display: flex;
+  font-size: 34px;
+  align-items: center;
+  align-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 80px;
+}
+
+/* all-player-details -------------*/
+.match-sumari {
+  display: grid;
+  width: 299px;
+  height: 311px;
+  justify-content: center;
+  background-color: black;
+  border-radius: 10px;
+  margin-right: 22px;
+}
+.match-container {
+  width: 252px;
+  height: 252px;
+  display: grid;
+  justify-content: center;
+  margin-top: 30px;
+}
+.match-container button {
+  background-color: white;
+  padding: 16px 39px;
+  border-radius: 7px;
+  font-size: 22px;
+  font-weight: 500;
+  font-weight: bold;
+}
+.match-container button.fast-btn {
+  padding: 18px 47px;
+  font-weight: 600;
+}
+button.last-btn {
+  background-color: orangered;
+  text-align: center;
+  padding: 17px 75px;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+/* play duration time  */
+.play-duration {
+  display: flex;
+  grid-column-gap: 20px;
+  font-size: 20px;
+}
+
+.palyer {
+  font-family: "Poppins", sans-serif;
+  width: 312px;
+  height: 362px;
+  box-shadow: 0 0 4px 2px rgb(0 0 0 / 20%);
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.course-info {
+  display: grid;
+  padding: 20px;
+  font-size: 22px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  justify-content: center;
+  padding: 29px;
+  margin-top: 20px;
+}
+section.all-player {
+  display: flex;
+  margin-top: 100px;
+}
+.all-player-details {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 16px;
+  grid-row-gap: 17px;
+}
+
+/* footer section--------  */
+footer {
+  width: 100%;
+  height: 550px;
+  background-color: black;
+  margin-top: 100px;
+}
+.goal-class {
+  display: grid;
+  justify-content: center;
+}
+
+.footer-end h1 {
+  color: white;
+}
+.footer-end hr {
+  width: 1500px;
+  border: 2px solid rgb(56, 56, 55);
+}
+
+footer .footer-end {
+  display: grid;
+  justify-content: center;
+}
+.socal {
+  font-size: 32px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  text-decoration: none;
+  margin-top: 58px;
+  margin-left: 91px;
+  align-items: center;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+}
+a {
+  margin-top: 10px;
+}
+.socal-ions {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  color: white;
+  grid-column-gap: 31px;
+  justify-content: center;
+  font-size: 49px;
+  margin-top: 85px;
+}
+.icons {
+  display: grid;
+  justify-content: center;
+}
+
+/* web responsibe  */
+@media only screen and (max-width: 688px) {
+  .container-one {
+    width: 100%;
+    flex-direction: column;
+  }
+  .show {
+    width: 300px;
+    height: 300px;
+  }
+  .container-one .full-title-container {
+    flex-direction: column;
+    width: 0px;
+
+    grid-template-columns: 1fr;
+  }
+}
+@media only screen and(max-width:1000px) {
+  .all-player {
+    background-color: antiquewhite;
+  }
+}
